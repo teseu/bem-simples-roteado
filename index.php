@@ -23,25 +23,6 @@
 
   	<div class="container theme-showcase" role="main">
          <?php require_once("rotas.php"); ?>
-    <?php
-
-	/*if(!isset($_GET['page']))
-	{
-		require_once("inicio.php");
-	}
-	else
-	{ 
-		  if (is_file($_GET['page'].".php"))
-		{
-		    require_once($_GET['page'].".php");
-		}
-		else
-            header('HTTP/1.0 404 Not Found');
-			require_once("404.php");
-	}*/
-
-  ?>
-
 	</div>
   	<?php require_once("rodape.php"); ?>	
 

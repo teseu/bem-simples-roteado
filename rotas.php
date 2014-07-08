@@ -5,7 +5,10 @@
       $rotas = array(
         'contato',
         'confirma',
-        'inicio'
+        'inicio',
+        'empresa',
+        'produtos',
+        'servicos'
        );
 
       foreach ($rotas as $url) {
