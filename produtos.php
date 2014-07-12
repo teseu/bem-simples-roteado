@@ -27,7 +27,7 @@ require_once("conexao.php");
          <div class="caption">
            <h3>'.$produto['nomeproduto'].'</h3>
            <p>'.$produto['descproduto'].' </p>
-           <h4>R$ 230,00 <span style="font-size: 11px;">ou 10X de R$ 23,00</span></h4>
+           <h4>'.$produto['preco'].' <span style="font-size: 11px;">ou '.$produto['condicao'].'</span></h4>
            <p><a href="#" class="btn btn-info"><i class="icon-shopping-cart icon-white"></i> Comprar</a> <a href="#" class="btn">Ver Detalhes &rarr;</a></p>
          </div>
        </div>
