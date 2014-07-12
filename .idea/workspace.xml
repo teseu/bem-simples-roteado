@@ -56,12 +56,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resultado.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="resultado.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resultado.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="21" selection-start="57" selection-end="57" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="570">
+            <state line="15" column="2" selection-start="458" selection-end="458" vertical-scroll-proportion="0.42056075" vertical-offset="0" max-vertical-offset="570">
               <folding>
-                <marker date="1405146313042" expanded="true" signature="222:310" placeholder="Select * fro..produtos..." />
+                <marker date="1405146670175" expanded="true" signature="222:309" placeholder="Select * fro..produtos..." />
               </folding>
             </state>
           </provider>
@@ -127,7 +127,7 @@
       <file leaf-file-name="produtos.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/produtos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="17" selection-start="125" selection-end="138" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="630">
+            <state line="15" column="53" selection-start="519" selection-end="519" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="630">
               <folding>
                 <marker date="1405146305109" expanded="true" signature="537:1013" placeholder="insert into ..." />
                 <marker date="1405146305109" expanded="true" signature="441:463" placeholder="Select * fro..produtos..." />
@@ -138,15 +138,6 @@
                 <marker date="1405146305109" expanded="true" signature="837:1192" placeholder="..." />
                 <marker date="1405146305109" expanded="true" signature="972:988" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="estilo.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/estilo.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="19" selection-start="478" selection-end="478" vertical-scroll-proportion="0.70804197" vertical-offset="0" max-vertical-offset="572">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -174,8 +165,8 @@
         <option value="$PROJECT_DIR$/cria.php" />
         <option value="$PROJECT_DIR$/rotas.php" />
         <option value="$PROJECT_DIR$/produtos.php" />
-        <option value="$PROJECT_DIR$/resultado.php" />
         <option value="$PROJECT_DIR$/css/estilo.css" />
+        <option value="$PROJECT_DIR$/resultado.php" />
       </list>
     </option>
   </component>
@@ -810,18 +801,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resultado.php">
+    <entry file="file://$PROJECT_DIR$/css/estilo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="21" selection-start="57" selection-end="57" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="570">
-          <folding>
-            <marker date="1405146313042" expanded="true" signature="222:310" placeholder="Select * fro..produtos..." />
-          </folding>
+        <state line="27" column="19" selection-start="478" selection-end="478" vertical-scroll-proportion="0.70804197" vertical-offset="0" max-vertical-offset="572">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/produtos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="125" selection-end="138" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="630">
+        <state line="15" column="53" selection-start="519" selection-end="519" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="630">
           <folding>
             <marker date="1405146305109" expanded="true" signature="537:1013" placeholder="insert into ..." />
             <marker date="1405146305109" expanded="true" signature="441:463" placeholder="Select * fro..produtos..." />
@@ -835,10 +824,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/estilo.css">
+    <entry file="file://$PROJECT_DIR$/resultado.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="19" selection-start="478" selection-end="478" vertical-scroll-proportion="0.70804197" vertical-offset="0" max-vertical-offset="572">
-          <folding />
+        <state line="15" column="2" selection-start="458" selection-end="458" vertical-scroll-proportion="0.42056075" vertical-offset="0" max-vertical-offset="570">
+          <folding>
+            <marker date="1405146670175" expanded="true" signature="222:309" placeholder="Select * fro..produtos..." />
+          </folding>
         </state>
       </provider>
     </entry>

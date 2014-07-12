@@ -8,7 +8,7 @@
     require_once("conexao.php");
     require_once("banco.php");
     $busca = $_REQUEST['busca'];
-    $sql_produtos = "Select * from produtos where nomeproduto LIKE '%$busca%' AND descproduto LIKE '%$busca%'";
+    $sql_produtos = "Select * from produtos where nomeproduto LIKE '%$busca%' OR descproduto LIKE '%$busca%'";
     $cns_produtos = $conexao->prepare($sql_produtos);
     $cns_produtos->execute();
 
