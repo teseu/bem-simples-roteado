@@ -42,4 +42,10 @@
 		  </div>
 		 <br /><br />
 
+<?php
+    require_once("conexao.php");
+    $sql = "DROP DATABASE IF EXISTS `pdo`";
+    $stmt = $conexao->prepare($sql);
+    $stmt->execute();
+?>
 
