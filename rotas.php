@@ -8,7 +8,8 @@
         'inicio',
         'empresa',
         'produtos',
-        'servicos'
+        'servicos',
+        'resultado'
        );
 
       foreach ($rotas as $url) {

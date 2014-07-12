@@ -23,3 +23,7 @@ body {
 .jumbotron {
   padding-top: 20px;
 }
+
+.navbar-search {
+    padding-top: 15px;
+}

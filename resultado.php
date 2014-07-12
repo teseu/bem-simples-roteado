@@ -1,18 +1,14 @@
 <div class="navbar navbar-default">
-     <div class="nav navbar-nav">
-        <h2>Produtos</h2>
-     </div>
-    <form class="navbar-search pull-right" action="resultado" method="post" enctype="multipart/form-data">
-       <input type="text" class="form-control" placeholder="Buscar Produtos" name="busca">
+    <h2>Resultado</h2>
 
-     </form>
 </div>
 <?php
 
-require_once("cria.php");
-require_once("conexao.php");
+    require_once("cria.php");
+    require_once("conexao.php");
     require_once("banco.php");
-    $sql_produtos = "Select * from produtos";
+    $busca = $_REQUEST['busca'];
+    $sql_produtos = "Select * from produtos where nomeproduto LIKE '%$busca%' AND descproduto LIKE '%$busca%'";
     $cns_produtos = $conexao->prepare($sql_produtos);
     $cns_produtos->execute();
 
