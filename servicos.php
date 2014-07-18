@@ -1,5 +1,22 @@
 <div class="jumbotron">
-    <h3>Serviços</h3>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-    <p><a href="#" class="btn btn-primary btn-large">Saiba mais &raquo;</a></p>
+    <?php
+        if ($banco == 0){
+
+            require_once("cria.php");
+            require_once("conexao.php");
+            require_once("banco.php");
+            $banco = 1;
+            echo("mudei o banco");
+        } else {
+            require_once("conexao.php");
+        }
+        $sql = "Select * from paginas where nomepagina = 'servicos'";
+        $cns = $conexao->prepare($sql);
+        $cns->execute();
+
+        $conteudo = $cns->fetch(PDO::FETCH_ASSOC);
+
+        echo($conteudo['conteudopagina']);
+
+    ?>
 </div>

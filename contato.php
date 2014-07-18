@@ -1,6 +1,24 @@
 <div class="row">
 	<div class="col-md-8">
-	  <h1>Envie sua mensagem</h1>
+	  <?php
+        if ($banco == 0){
+
+            require_once("cria.php");
+            require_once("conexao.php");
+            require_once("banco.php");
+            $banco = 1;
+        } else {
+            require_once("conexao.php");
+        }
+        $sql = "Select * from paginas where nomepagina = 'contato'";
+        $cns = $conexao->prepare($sql);
+        $cns->execute();
+
+        $conteudo = $cns->fetch(PDO::FETCH_ASSOC);
+
+        echo($conteudo['conteudopagina']);
+
+    ?>
 	  <form method="post" action="confirma" enctype="multipart/form-data">
 		  <div class="row">
 		    <div class="col-md-6"><input name="nome" class="form-control" type="text" placeholder="Nome"></div>

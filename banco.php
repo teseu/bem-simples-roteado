@@ -10,11 +10,15 @@ $stmt->execute();*/
 require_once("cria.php");
 require_once("conexao.php");
 
-$verifica_tabela = "DROP TABLE IF EXISTS `produtos`";
-$stmt = $conexao->prepare($verifica_tabela);
+$verifica_produtos = "DROP TABLE IF EXISTS `produtos`;";
+$stmt = $conexao->prepare($verifica_produtos);
 $stmt->execute();
 
-$cria_tabela = "CREATE TABLE `produtos` (
+$verifica_paginas = "DROP TABLE IF EXISTS `paginas`;";
+$stmt = $conexao->prepare($verifica_paginas);
+$stmt->execute();
+
+$cria_produtos = "CREATE TABLE `produtos` (
   `idproduto` int(10) NOT NULL,
   `nomeproduto` varchar(45) DEFAULT NULL,
   `descproduto` varchar(200) DEFAULT NULL,
@@ -23,10 +27,18 @@ $cria_tabela = "CREATE TABLE `produtos` (
   `preco` varchar(25) DEFAULT NULL,
   `condicao` varchar(50) DEFAULT NULL
    ) ENGINE=InnoDB DEFAULT CHARSET=utf8";
-$stmt2 = $conexao->prepare($cria_tabela);
+$stmt2 = $conexao->prepare($cria_produtos);
 $stmt2->execute();
 
-$insere_dados = "INSERT INTO `produtos` VALUES
+$cria_paginas = "CREATE TABLE `paginas` (
+  `idpagina` int(10) NOT NULL,
+  `nomepagina` varchar(45) DEFAULT NULL,
+  `conteudopagina` text DEFAULT NULL
+   ) ENGINE=InnoDB DEFAULT CHARSET=utf8";
+$stmt2 = $conexao->prepare($cria_paginas);
+$stmt2->execute();
+
+$insere_produtos = "INSERT INTO `produtos` VALUES
 (1,'Cadeado Inox','Cadeado em aço inoxidável de qualidade com segurança','cadeadoi.png','cadeado.png','R$ 19,00','2x de R$ 9,50'),
 (2,'Carteira de couro','Carteira de couro legítimo, preta com slots para documentos','carteirai.png','carteira.png','R$ 89,00','4x de R$ 22,25'),
 (3,'Celular retrô','Aparelho celular inspirado nos antigos modelos do final dos anos 90','celulari.png','celular.png','R$ 469,00','10x de R$ 46,90'),
@@ -43,5 +55,17 @@ $insere_dados = "INSERT INTO `produtos` VALUES
 (14,'Pilhas D','Pacote com 2 pilhas tamanho D','pilhai.png','pilha.png','R$ 13,00','2x de R$ 6,50'),
 (15,'Scanner','Scanner HP com resolução de 2600 dpi','scanneri.png','scanner.png','R$ 199,00','6x de R$ 31,17'),
 (16,'Telescópio Toya','Telescópio Toya com abertura de 105mm','telescopioi.png','telescopio.png','R$ 954,00','10x de R$ 9,54')";
-$stmt3 = $conexao->prepare($insere_dados);
+$stmt3 = $conexao->prepare($insere_produtos);
+$stmt3->execute();
+
+$insere_paginas = "INSERT INTO `paginas` VALUES
+(1, 'empresa', '<h3>Empresa</h3>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+    <p><a href=\"#\" class=\"btn btn-primary btn-large\">Saiba mais &raquo;</a></p>'),
+(2, 'servicos', '<h3>Serviços</h3>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+    <p><a href=\"#\" class=\"btn btn-primary btn-large\">Saiba mais &raquo;</a></p>'),
+(3, 'contato', '<h1>Envie sua mensagem</h1>')";
+
+$stmt3 = $conexao->prepare($insere_paginas);
 $stmt3->execute();

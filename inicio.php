@@ -47,5 +47,6 @@
     $sql = "DROP DATABASE IF EXISTS `pdo`";
     $stmt = $conexao->prepare($sql);
     $stmt->execute();
+    $banco = 0;
 ?>
 

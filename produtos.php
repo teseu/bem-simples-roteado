@@ -8,10 +8,17 @@
      </form>
 </div>
 <?php
+if ($banco == 0){
 
-require_once("cria.php");
-require_once("conexao.php");
+    require_once("cria.php");
+    require_once("conexao.php");
     require_once("banco.php");
+    $banco = 1;
+} else {
+    require_once("conexao.php");
+}
+
+
     $sql_produtos = "Select * from produtos";
     $cns_produtos = $conexao->prepare($sql_produtos);
     $cns_produtos->execute();

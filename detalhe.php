@@ -1,9 +1,14 @@
 <div class="navbar navbar-default">
     <?php
+if ($banco == 0){
 
     require_once("cria.php");
     require_once("conexao.php");
     require_once("banco.php");
+    $banco = 1;
+} else {
+    require_once("conexao.php");
+}
     $id = $_REQUEST['id'];
     $sql_produto = "Select * from produtos where idproduto = :id";
 
