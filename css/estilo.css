@@ -27,3 +27,8 @@ body {
 .navbar-search {
     padding-top: 15px;
 }
+
+#modal-login {
+    vertical-align: middle;
+    padding-bottom: 0px;
+}

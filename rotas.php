@@ -6,11 +6,19 @@
         'contato',
         'confirma',
         'inicio',
+        'inicio2',
         'empresa',
         'produtos',
         'servicos',
         'resultado',
-        'detalhe'
+        'detalhe',
+        'admin',
+        'adpaginas',
+        'adprodutos',
+        'edpaginas',
+        'edprodutos',
+        'respaginas',
+        'resprodutos'
        );
 
       foreach ($rotas as $url) {

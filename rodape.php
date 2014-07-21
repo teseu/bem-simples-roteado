@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Trilha PHP</a>
+      <a class="navbar-brand" href="inicio2">Trilha PHP</a>
     </div>
     <div class="navbar-collapse collapse">
   		

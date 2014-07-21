@@ -8,16 +8,16 @@
      </form>
 </div>
 <?php
-if ($banco == 0){
+/*if ($_SESSION['banco']){
+            require_once("conexao.php");
+        } else {
+            require_once("cria.php");
+            require_once("conexao.php");
+            require_once("banco.php");
+            $_SESSION['banco'] = true;
 
-    require_once("cria.php");
-    require_once("conexao.php");
-    require_once("banco.php");
-    $banco = 1;
-} else {
-    require_once("conexao.php");
-}
-
+        }*/
+require_once("conexao.php");
 
     $sql_produtos = "Select * from produtos";
     $cns_produtos = $conexao->prepare($sql_produtos);

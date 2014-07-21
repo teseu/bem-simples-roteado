@@ -43,10 +43,10 @@
 		 <br /><br />
 
 <?php
-
-    require_once("cria.php");
     require_once("conexao.php");
-    require_once("banco.php");
-
+    $sql = "DROP DATABASE IF EXISTS `pdo`";
+    $stmt = $conexao->prepare($sql);
+    $stmt->execute();
+    unset($_SESSION['banco']);
 ?>
 

@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="pt">
   <head>
@@ -12,13 +13,14 @@
     <!--[if lt IE 9]>
       <script src="/js/html5shiv.js"></script>
       <script src="/js/respond.min.js"></script>
+
     <![endif]-->
 
   </head>
 
   <body>
 
-
+    <?php require_once("modal-login.php"); ?>
   	<?php require_once("cabecalho.php"); ?>
 
   	<div class="container theme-showcase" role="main">

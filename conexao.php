@@ -13,7 +13,3 @@ try {
 catch(\PDOException $erro) {
     die("Código do erro: ".$erro->getCode().": ".$erro->getMessage());
 }
-
-
-
-
