@@ -47,8 +47,8 @@ $stmt2->execute();
 $cria_usuarios = "CREATE TABLE `usuarios` (
   `idusuario` int(10) NOT NULL,
   `nomeusuario` varchar(100) DEFAULT NULL,
-  `loginusuario` varchar(45) DEFAULT NULL,
-  `senhausuario` varchar(100) DEFAULT NULL
+  `login` varchar(45) DEFAULT NULL,
+  `senha` varchar(200) DEFAULT NULL
    ) ENGINE=InnoDB DEFAULT CHARSET=utf8";
 $stmt2 = $conexao->prepare($cria_usuarios);
 $stmt2->execute();
@@ -83,7 +83,10 @@ $insere_paginas = "INSERT INTO `paginas` VALUES
 $stmt3 = $conexao->prepare($insere_paginas);
 $stmt3->execute();
 
+$hash = password_hash('admin', PASSWORD_DEFAULT);
+
 $insere_usuarios = "INSERT INTO `usuarios` VALUES
-(1, 'Tulio Macedo', 'admin', 'admin')";
-$stmt3 = $conexao->prepare($$insere_usuarios);
+(1, 'Tulio Macedo', 'admin', '$hash')";
+$stmt3 = $conexao->prepare($insere_usuarios);
 $stmt3->execute();
+

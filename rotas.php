@@ -18,7 +18,10 @@
         'edpaginas',
         'edprodutos',
         'respaginas',
-        'resprodutos'
+        'resprodutos',
+        'login',
+        'logout',
+        'entrar'
        );
 
       foreach ($rotas as $url) {

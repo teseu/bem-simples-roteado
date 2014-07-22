@@ -1,4 +1,5 @@
 <?php session_start(); ?>
+<?php if($_SESSION['login']): ?>
 <div>
     <div class="panel panel-default">
   <div class="panel-heading">
@@ -12,3 +13,6 @@
         <li class=" col-md-6"><h3><a href="adprodutos">Administrar produtos</a></h3></li>-->
   </div>
 </div>
+<?php else: header("location: entrar"); ?>
+
+<?php endif; ?>

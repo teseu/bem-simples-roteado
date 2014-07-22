@@ -1,5 +1,5 @@
-<?php
-session_start();
+<?php session_start();  ?>
+<?php if($_SESSION['login']):
 $id = $_POST['id'];
 $nome = $_POST['nome'];
 $preco = $_POST['preco'];
@@ -21,3 +21,6 @@ $descproduto = $_POST['descproduto'];
 				<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button>
   				O produto foi atualizado com sucesso! Veja a <a href='adprodutos' class='alert-link'>lista</a>
 </div>
+<?php else: header("location: entrar"); ?>
+
+<?php endif; ?>

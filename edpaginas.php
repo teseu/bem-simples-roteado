@@ -1,5 +1,5 @@
-<?php
-session_start();
+<?php session_start(); ?>
+<?php if($_SESSION['login']):
 $id = $_REQUEST['id'];
 
     require_once("conexao.php");
@@ -39,3 +39,6 @@ $id = $_REQUEST['id'];
 	  </form>
 	</div>
 </div>
+<?php else: header("location: entrar"); ?>
+
+<?php endif; ?>

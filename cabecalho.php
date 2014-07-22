@@ -18,14 +18,16 @@
         <li <?php if($url == '/produtos'){echo "class='active'";} ?>><a href="produtos">Produtos</a></li>
         <li <?php if($url == '/servicos'){echo "class='active'";} ?>><a href="servicos">Serviços</a></li>
         <li <?php if($url == '/contato'){echo "class='active'";} ?>><a href="contato">Contato</a></li>
+          <?php if($_SESSION['login']): ?>
         <li <?php if($url == '/admin'){echo "class='active'";} ?>><a href="admin">Administração</a></li>
+          <?php endif; ?>
       </ul>
-        <?php if(!$_SESSION['logado']): ?>
+        <?php if(!$_SESSION['login']): ?>
             <div class="text-right" id="modal-login" style="margin-top: 10px;">
-                <a href="#modalLogin" role="button" class="btn btn-primary" data-toggle="modal">Login</a>
+                <a href="entrar" role="button" class="btn btn-primary">Login</a>
             </div>
         <?php else: ?>
-            <div class="col-md-2 text-right" id="modal-login" style="margin-top: 10px;">
+            <div class="text-right" id="modal-login" style="margin-top: 10px;">
                 <a href="logout" role="button" class="btn btn-warning">Logout</a>
             </div>
         <?php endif; ?>

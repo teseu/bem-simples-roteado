@@ -1,4 +1,5 @@
 <?php session_start(); ?>
+<?php if($_SESSION['login']): ?>
 <div class="navbar navbar-default">
      <div class="nav navbar-nav">
         <h2>Produtos</h2>
@@ -51,3 +52,7 @@
   </table>
   </div>
 </div>
+
+<?php else: header("location: entrar"); ?>
+
+<?php endif; ?>

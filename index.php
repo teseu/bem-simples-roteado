@@ -20,7 +20,6 @@
 
   <body>
 
-    <?php require_once("modal-login.php"); ?>
   	<?php require_once("cabecalho.php"); ?>
 
   	<div class="container theme-showcase" role="main">
