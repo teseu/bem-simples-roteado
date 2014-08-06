@@ -3,25 +3,27 @@
   function verfica() {
       $endereco = $_SERVER['REQUEST_URI'];
       $rotas = array(
-        'contato',
-        'confirma',
-        'inicio',
-        'inicio2',
-        'empresa',
-        'produtos',
-        'servicos',
-        'resultado',
-        'detalhe',
-        'admin',
-        'adpaginas',
-        'adprodutos',
-        'edpaginas',
-        'edprodutos',
-        'respaginas',
-        'resprodutos',
-        'login',
-        'logout',
-        'entrar'
+    'contato',
+    'confirma',
+    'inicio',
+    'inicio2',
+    'empresa',
+    'produtos',
+    'servicos',
+    'resultado',
+    'detalhe',
+    'admin',
+    'adpaginas',
+    'adprodutos',
+    'edpaginas',
+    'edprodutos',
+    'respaginas',
+    'resprodutos',
+    'login',
+    'logout',
+    'entrar',
+    'clientes',
+    'detalheclientes'
        );
 
       foreach ($rotas as $url) {

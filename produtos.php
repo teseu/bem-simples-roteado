@@ -8,15 +8,7 @@
      </form>
 </div>
 <?php
-/*if ($_SESSION['banco']){
-            require_once("conexao.php");
-        } else {
-            require_once("cria.php");
-            require_once("conexao.php");
-            require_once("banco.php");
-            $_SESSION['banco'] = true;
 
-        }*/
 require_once("conexao.php");
 
     $sql_produtos = "Select * from produtos";

@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <footer>
 	<div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
   <div class="container">
@@ -13,9 +14,11 @@
     <div class="navbar-collapse collapse">
   		
       	<span class="navbar-text">Todos os direitos reservados &copy; - <?php echo date("Y"); ?></span>
-  		
-        <span class="navbar-text navbar-right">Logado como <a href="#" class="navbar-link"> Tulio </a></span>
-
+  		<?php if($_SESSION['login']): ?>
+        <span class="navbar-text navbar-right">Logado como <a href="#" class="navbar-link"><strong><?php echo($_SESSION['usuario']); ?></strong> </a></span>
+        <?php else: ?>
+        <span class="navbar-text navbar-right">Não está logado</span>
+        <?php endif; ?>
     </div>
   </div>
 </div>
