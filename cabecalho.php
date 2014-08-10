@@ -17,6 +17,7 @@
         <li <?php if($url == '/empresa'){echo "class='active'";} ?>><a href="empresa">Empresa</a></li>
         <li <?php if($url == '/produtos'){echo "class='active'";} ?>><a href="produtos">Produtos</a></li>
         <li <?php if($url == '/servicos'){echo "class='active'";} ?>><a href="servicos">Serviços</a></li>
+        <li <?php if($url == '/clientes'){echo "class='active'";} ?>><a href="clientes">Clientes</a></li>
         <li <?php if($url == '/contato'){echo "class='active'";} ?>><a href="contato">Contato</a></li>
           <?php if($_SESSION['login']): ?>
         <li <?php if($url == '/admin'){echo "class='active'";} ?>><a href="admin">Administração</a></li>

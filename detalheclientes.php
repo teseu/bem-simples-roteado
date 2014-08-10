@@ -1,6 +1,3 @@
-<?php session_start(); ?>
-<?php if($_SESSION['login']): ?>
-
     <?php
     require_once('cliente.php');
 
@@ -27,6 +24,3 @@
               </div>');
 
     ?>
-<?php else: header("location: entrar"); ?>
-
-<?php endif; ?>
