@@ -1,8 +1,12 @@
     <?php
     require_once('cliente.php');
 
-
-    $sort = $_POST['sort'];
+    if(isset($_POST['sort'])){
+        $sort = $_POST['sort'];
+    }
+    else {
+        $sort = 1;
+    }
     if ($sort == 1) {
         ksort($clientes);
         $sort = 2;
