@@ -1,6 +1,7 @@
 <?php
 
-class cliente {
+class cliente
+{
     public $nome;
     public $cpf;
     public $endereco;
