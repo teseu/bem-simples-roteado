@@ -1,9 +1,12 @@
     <?php
-    require_once('cliente.php');
+    require_once('ClientePF.php');
+    require_once('ClientePJ.php');
 
-    $cpf = $_POST['cpf'];
+    $clientes = array_merge($clientespf, $clientespj);
+
+    $id = $_POST['id'];
     foreach($clientes as $cliente){
-        if($cliente[1] == $cpf) {
+        if($cliente[1] == $id) {
             $nome = $cliente[0];
             $endereco = $cliente[2];
             $telefone = $cliente[3];
@@ -16,7 +19,7 @@
               </div>
               <div class="panel-body">
 
-                  <h5><strong>CPF: </strong>'.$cpf.'</h5>
+                  <h5><strong>CPF/CNPJ: </strong>'.$id.'</h5>
                   <h5><strong>Endereço: </strong>'.$endereco.'</h5>
                   <h5><strong>Telefone: </strong>'.$telefone.'</h5>
                   <h5><strong>E-mail: </strong>'.$email.'</h5>
