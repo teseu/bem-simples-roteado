@@ -1,6 +1,6 @@
 <?php
 
-class cliente
+class Cliente
 {
     protected $nome;
     protected $endereco;
@@ -8,7 +8,7 @@ class cliente
     protected $email;
     protected $tipo;
 
-    protected function __construct($nome, $cpf, $endereco, $telefone, $email, $tipo)
+    protected function __construct($nome, $endereco, $telefone, $email, $tipo)
     {
         $this->nome = $nome;
         $this->endereco = $endereco;

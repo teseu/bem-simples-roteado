@@ -1,19 +1,82 @@
 <?php
 
-class ClientePF {
+class ClientePF extends Cliente
+{
 
     private $cpf;
 
-    private function __construct($nome, $cpf, $endereco, $telefone, $email, $tipo){
+    public function __construct($nome, $cpf, $endereco, $telefone, $email, $tipo){
 
         $this->cpf = $cpf;
-        $this->nome = parent::__contruct($nome);
-        $this->endereco = parent::__construct($endereco);
-        $this->telefone = parent::__construct($telefone);
-        $this->email = parent::__construct($email);
-        $this->tipo = parent::_construct($tipo);
+        $this->nome = parent::$nome;
+        $this->endereco = parent::$endereco;
+        $this->telefone = parent::$telefone;
+        $this->email = parent::$email;
+        $this->tipo = parent::$tipo;
 
     }
+
+    public function setCpf($cpf)
+    {
+        $this->cpf = $cpf;
+    }
+
+    public function getCpf()
+    {
+        return $this->cpf;
+    }
+
+    public function setEmail($email)
+    {
+        $this->email = $email;
+    }
+
+    public function getEmail()
+    {
+        return $this->email;
+    }
+
+    public function setEndereco($endereco)
+    {
+        $this->endereco = $endereco;
+    }
+
+    public function getEndereco()
+    {
+        return $this->endereco;
+    }
+
+    public function setNome($nome)
+    {
+        $this->nome = $nome;
+    }
+
+    public function getNome()
+    {
+        return $this->nome;
+    }
+
+    public function setTelefone($telefone)
+    {
+        $this->telefone = $telefone;
+    }
+
+    public function getTelefone()
+    {
+        return $this->telefone;
+    }
+
+    public function setTipo($tipo)
+    {
+        $this->tipo = $tipo;
+    }
+
+    public function getTipo()
+    {
+        return $this->tipo;
+    }
+
+
 
 }
 
@@ -28,3 +91,8 @@ $clientespf = array( array("Alberto Luis", 98745632101 , 'QNL 05 Casa 34', '3456
     array("Natália Farias", 98745632109 , 'SHIN QL 08 Coinjunto 01 Casa 03', '3368-9029', 'natalia@email.com', '1'),
     array("Susana Rafael", 98745632110 , 'Quadra 3 Conjunto G Casa 35', '4509-2134', 'susana@email.com', '1')
 );
+
+foreach ($clientespf as $cliente ) {
+        $num = $i++;
+    $cliente = new ClientePF($cliente[0], $cliente[1], $cliente[2], $cliente[3], $cliente[4], $cliente[5]);
+}
