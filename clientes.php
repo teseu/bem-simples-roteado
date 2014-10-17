@@ -1,6 +1,7 @@
     <?php
-    require_once('ClientePF.php');
-    require_once('ClientePJ.php');
+    require_once(__DIR__.'/Cliente.php');
+    require_once(__DIR__.'/ClientePF.php');
+    require_once(__DIR__.'/ClientePJ.php');
 
     $clientes = array_merge($clientespf, $clientespj);
 
@@ -47,7 +48,7 @@
                 <td>$cliente[1]</td>
                 <td>$cliente[4]</td>
                 <td>";
-                    if($cliente[5] == '1'){ echo 'Pessoa Física';} else { echo 'Pessoa Jurídica';}
+                    if($cliente->tipo == '1'){ echo 'Pessoa Física';} else { echo 'Pessoa Jurídica';}
                     echo "</td>
                 </tr>";
     }

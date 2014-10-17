@@ -2,11 +2,11 @@
 
 class Cliente
 {
-    protected $nome;
-    protected $endereco;
-    protected $telefone;
-    protected $email;
-    protected $tipo;
+    protected static $nome;
+    protected static $endereco;
+    protected static $telefone;
+    protected static $email;
+    protected static $tipo;
 
     protected function __construct($nome, $endereco, $telefone, $email, $tipo)
     {

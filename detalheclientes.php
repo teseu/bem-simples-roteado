@@ -1,6 +1,7 @@
     <?php
-    require_once('ClientePF.php');
-    require_once('ClientePJ.php');
+    require_once(__DIR__.'/Cliente.php');
+    require_once(__DIR__.'/ClientePF.php');
+    require_once(__DIR__.'/ClientePJ.php');
 
     $clientes = array_merge($clientespf, $clientespj);
 
