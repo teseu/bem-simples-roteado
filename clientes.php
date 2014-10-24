@@ -2,6 +2,7 @@
     require_once(__DIR__.'/Cliente.php');
     require_once(__DIR__.'/ClientePF.php');
     require_once(__DIR__.'/ClientePJ.php');
+    require_once(__DIR__.'/arrayClientesPF.php');
 
     $clientes = array_merge($clientespf, $clientespj);
 
@@ -19,6 +20,8 @@
         krsort($clientes);
         $sort = 1;
     }
+    print_r($clientespf);
+    print_r($clientespf[0]->getNome());
     echo "<div class='row'>
              <div class='col-md-12'>
                <div class='panel panel-default'>
@@ -37,18 +40,18 @@
                        </tr>
                      </thead>
                      <tbody>";
-    $i =1;
-    foreach ($clientes as $cliente ) {
+    $i = 1;
+    foreach ($clientespf as $chave => $cliente ) {
         $num = $i++;
         echo "<tr>
                 <td>$num</td>
                 <td><form method='post' action='detalheclientes'>
-                  <input type='hidden' id='id' name='id' value='$cliente[1]' >
-                  <button type='submit' class='btn btn-link'> $cliente[0]</button> </form></td>
-                <td>$cliente[1]</td>
-                <td>$cliente[4]</td>
+                  <input type='hidden' id='id' name='id' value='$cliente->getCpf()' >
+                  <button type='submit' class='btn btn-link'> $cliente->getNome()</button> </form></td>
+                <td>$cliente->getCpf()</td>
+                <td>$cliente->getEmail()</td>
                 <td>";
-                    if($cliente->tipo == '1'){ echo 'Pessoa Física';} else { echo 'Pessoa Jurídica';}
+                    if($cliente->getTipo() == '1'){ echo 'Pessoa Física';} else { echo 'Pessoa Jurídica';}
                     echo "</td>
                 </tr>";
     }
@@ -58,3 +61,4 @@
     </div>
   </div>
 </div>
+
