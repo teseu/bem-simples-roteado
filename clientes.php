@@ -3,6 +3,7 @@
     require_once(__DIR__.'/ClientePF.php');
     require_once(__DIR__.'/ClientePJ.php');
     require_once(__DIR__.'/arrayClientesPF.php');
+    require_once(__DIR__.'/arrayClientesPJ.php');
 
     $clientes = array_merge($clientespf, $clientespj);
 
@@ -37,6 +38,7 @@
                          <th>CPF/CNPJ</th>
                          <th>E-mail</th>
                          <th>Tipo</th>
+                         <th>Rank</th>
                        </tr>
                      </thead>
                      <tbody>";
@@ -53,6 +55,11 @@
                 <td>";
                     if($cliente->getTipo() == '1'){ echo 'Pessoa Física';} else { echo 'Pessoa Jurídica';}
                     echo "</td>
+                        <td><div class='progress'>
+  <div class='progress-bar progress-bar-striped active' role='progressbar' aria-valuenow='45' aria-valuemin='0' aria-valuemax='100' style='width: 45%'>
+    <span class='sr-only'>45% Complete</span>
+  </div>
+</div> </td>
                 </tr>";
     }
     ?>
