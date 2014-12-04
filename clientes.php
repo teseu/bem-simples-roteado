@@ -21,8 +21,13 @@
         krsort($clientes);
         $sort = 1;
     }
-    print_r($clientespf);
-    print_r($clientespf[0]->getNome());
+    print_r($clientes);
+    if($clientes[12]->getTipo() == 1){
+        print_r($clientes[12]->getCpf());
+    }
+    else{
+    print_r($clientes[12]->getCnpj());
+    }
     echo "<div class='row'>
              <div class='col-md-12'>
                <div class='panel panel-default'>
@@ -43,7 +48,7 @@
                      </thead>
                      <tbody>";
     $i = 1;
-    foreach ($clientespf as $chave => $cliente ) {
+    foreach ($clientes as $chave => $cliente ) {
         $num = $i++;
         echo "<tr>
                 <td>$num</td>
