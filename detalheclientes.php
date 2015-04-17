@@ -2,11 +2,23 @@
     require_once(__DIR__.'/Cliente.php');
     require_once(__DIR__.'/ClientePF.php');
     require_once(__DIR__.'/ClientePJ.php');
+    require_once(__DIR__.'/arrayClientesPF.php');
+    require_once(__DIR__.'/arrayClientesPJ.php');
 
     $clientes = array_merge($clientespf, $clientespj);
 
     $id = $_POST['id'];
-    foreach($clientes as $cliente){
+ /*    for ($c = 0; $c <= 12; $c++) {
+         $clienteid = $clientes[$c].[1];
+        if($clientes[$c].[1] == $id) {
+            $nome = $clientes[$c][0];
+            $endereco = $clientes[$c][2];
+            $telefone = $clientes[$c][3];
+            $email = $clientes[$c][4];
+        }
+    }*/
+     foreach($clientes as $cliente){
+         $clienteid = $cliente[1];
         if($cliente[1] == $id) {
             $nome = $cliente[0];
             $endereco = $cliente[2];

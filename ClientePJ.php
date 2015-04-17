@@ -5,7 +5,7 @@ class ClientePJ extends Cliente
 
     private $cnpj;
 
-    private function __construct($nome, $cnpj, $endereco, $telefone, $email, $tipo){
+    public  function __construct($nome, $cnpj, $endereco, $telefone, $email, $tipo){
 
         $this->cnpj = $cnpj;
         $this->nome = $nome;

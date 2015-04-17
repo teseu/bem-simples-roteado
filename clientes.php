@@ -21,13 +21,18 @@
         krsort($clientes);
         $sort = 1;
     }
-    print_r($clientes);
+ /*   print_r($clientes);
     if($clientes[12]->getTipo() == 1){
         print_r($clientes[12]->getCpf());
     }
     else{
     print_r($clientes[12]->getCnpj());
-    }
+    }*/
+
+   /* for ($c = 0; $c <= 12; $c++) {
+
+       print_r($clientes[$c]->getNome());
+    }*/
     echo "<div class='row'>
              <div class='col-md-12'>
                <div class='panel panel-default'>
@@ -47,8 +52,50 @@
                        </tr>
                      </thead>
                      <tbody>";
-    $i = 1;
-    foreach ($clientes as $chave => $cliente ) {
+   /* $i = 1;*/
+
+    for ($c = 0; $c <= 12; $c++) {
+
+
+
+
+        $num = $c + 1;
+        echo "<tr>
+                <td>$num</td>
+                <td><form method='post' action='detalheclientes'>
+                  <input type='hidden' id='id' name='id' value='";
+        if($clientes[$c]->getTipo() == '1'){
+            print_r($clientes[$c]->getCpf());
+        }else {
+            print_r($clientes[$c]->getCnpj());
+        }
+
+        echo" ' >
+                  <button type='submit' class='btn btn-link'> ";
+        print_r($clientes[$c]->getNome());
+        echo"
+        </button> </form></td>
+                <td>";
+        if($clientes[$c]->getTipo() == '1'){
+            print_r($clientes[$c]->getCpf());
+        }else {
+            print_r($clientes[$c]->getCnpj());
+        }
+        echo" </td>
+                <td>";
+        print_r($clientes[$c]->getEmail());
+        echo" </td>
+                <td>";
+                    if($clientes[$c]->getTipo() == '1'){ echo 'Pessoa Física';} else { echo 'Pessoa Jurídica';}
+                    echo "</td>
+                        <td><div class='progress'>
+  <div class='progress-bar progress-bar-striped active' role='progressbar' aria-valuenow='45' aria-valuemin='0' aria-valuemax='100' style='width: 45%'>
+    <span class='sr-only'>45% Complete</span>
+  </div>
+</div> </td>
+                </tr>";
+    }
+/*        foreach ($clientes as $chave => $cliente ) {
         $num = $i++;
         echo "<tr>
                 <td>$num</td>
@@ -66,7 +113,7 @@
   </div>
 </div> </td>
                 </tr>";
-    }
+    }*/
     ?>
          </tbody>
       </table>
