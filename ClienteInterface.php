@@ -2,7 +2,9 @@
 
 interface ClienteInterface {
 
-    public function classificar();
-    public function setEnderecoCobranca();
+    public function setRank($rank);
+    public function getRank();
+    public function setEnderecoCobranca($enderecoCobranca);
+    public function getEnderecoCobranca();
 
 } 

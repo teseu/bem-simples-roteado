@@ -11,6 +11,7 @@ error_reporting(E_ALL | E_STRICT);
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="css/estilo.css" rel="stylesheet" media="screen">
+    <link href="css/rating.css" rel="stylesheet" media="screen">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>

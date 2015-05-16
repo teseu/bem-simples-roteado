@@ -1,9 +1,11 @@
 <?php
-
-class ClientePJ extends Cliente
+require_once(__DIR__.'/ClienteInterface.php');
+class ClientePJ extends Cliente implements ClienteInterface
 {
 
     private $cnpj;
+    protected $rank;
+    protected $enderecoCobranca;
 
     public  function __construct($nome, $cnpj, $endereco, $telefone, $email, $tipo){
 
@@ -26,7 +28,30 @@ class ClientePJ extends Cliente
         return $this->cnpj;
     }
 
+    public function getId()
+    {
+        return $this->cnpj;
+    }
 
+    public function setRank($rank)
+    {
+        $this->rank = $rank;
+    }
+
+    public function getRank()
+    {
+        return $this->rank;
+    }
+
+    public function setEnderecoCobranca($enderecoCobranca)
+    {
+        $this->enderecoCobranca = $enderecoCobranca;
+    }
+
+    public function getEnderecoCobranca()
+    {
+        return $this->enderecoCobranca;
+    }
 
 }
 

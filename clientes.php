@@ -2,6 +2,7 @@
     require_once(__DIR__.'/Cliente.php');
     require_once(__DIR__.'/ClientePF.php');
     require_once(__DIR__.'/ClientePJ.php');
+    require_once(__DIR__.'/ClienteInterface.php');
     require_once(__DIR__.'/arrayClientesPF.php');
     require_once(__DIR__.'/arrayClientesPJ.php');
 
@@ -14,25 +15,14 @@
         $sort = 1;
     }
     if ($sort == 1) {
-        ksort($clientes);
+        sort($clientes);
         $sort = 2;
     }
     else {
-        krsort($clientes);
+        rsort($clientes);
         $sort = 1;
     }
- /*   print_r($clientes);
-    if($clientes[12]->getTipo() == 1){
-        print_r($clientes[12]->getCpf());
-    }
-    else{
-    print_r($clientes[12]->getCnpj());
-    }*/
 
-   /* for ($c = 0; $c <= 12; $c++) {
-
-       print_r($clientes[$c]->getNome());
-    }*/
     echo "<div class='row'>
              <div class='col-md-12'>
                <div class='panel panel-default'>
@@ -46,17 +36,14 @@
                               <input type='hidden' id='sort' name='sort' value='$sort'>
                               <button type='submit' class='btn btn-link'> Nome</button> </form> </th>
                          <th>CPF/CNPJ</th>
-                         <th>E-mail</th>
+                         <th>Endereço de cobrança</th>
                          <th>Tipo</th>
                          <th>Rank</th>
                        </tr>
                      </thead>
                      <tbody>";
-   /* $i = 1;*/
 
     for ($c = 0; $c <= 12; $c++) {
-
-
 
 
         $num = $c + 1;
@@ -64,56 +51,53 @@
                 <td>$num</td>
                 <td><form method='post' action='detalheclientes'>
                   <input type='hidden' id='id' name='id' value='";
-        if($clientes[$c]->getTipo() == '1'){
-            print_r($clientes[$c]->getCpf());
-        }else {
-            print_r($clientes[$c]->getCnpj());
-        }
+        print_r($clientes[$c]->getId());
 
-        echo" ' >
+        echo"' >
                   <button type='submit' class='btn btn-link'> ";
         print_r($clientes[$c]->getNome());
         echo"
-        </button> </form></td>
+        </button> </td>
                 <td>";
-        if($clientes[$c]->getTipo() == '1'){
-            print_r($clientes[$c]->getCpf());
-        }else {
-            print_r($clientes[$c]->getCnpj());
-        }
+        print_r($clientes[$c]->getId());
         echo" </td>
-                <td>";
-        print_r($clientes[$c]->getEmail());
-        echo" </td>
+                <td><input type='text' class='form-control' name='endereco' value='";
+        print_r($clientes[$c]->getEnderecoCobranca());
+        echo"'> </td>
                 <td>";
                     if($clientes[$c]->getTipo() == '1'){ echo 'Pessoa Física';} else { echo 'Pessoa Jurídica';}
                     echo "</td>
-                        <td><div class='progress'>
-  <div class='progress-bar progress-bar-striped active' role='progressbar' aria-valuenow='45' aria-valuemin='0' aria-valuemax='100' style='width: 45%'>
-    <span class='sr-only'>45% Complete</span>
-  </div>
-</div> </td>
+                        <td><div>
+                        <span class='starRating'>
+        <input id='";
+        print_r($clientes[$c]->getEmail());         echo"5' type='radio'
+        name='cliente[$num]' value='5'>
+        <label for='";
+        print_r($clientes[$c]->getEmail());         echo"5'></label>
+        <input id='";
+        print_r($clientes[$c]->getEmail());         echo"4' type='radio'
+        name='cliente[$num]' value='4'>
+        <label for='";
+        print_r($clientes[$c]->getEmail());         echo"4'></label>
+        <input id='";
+        print_r($clientes[$c]->getEmail());         echo"3' type='radio'
+        name='cliente[$num]' value='3'>
+        <label for='";
+        print_r($clientes[$c]->getEmail());         echo"3'></label>
+        <input id='";
+        print_r($clientes[$c]->getEmail());         echo"2' type='radio'
+        name='cliente[$num]' value='2'>
+        <label for='";
+        print_r($clientes[$c]->getEmail());         echo"2'></label>
+        <input id='";
+        print_r($clientes[$c]->getEmail());         echo"1' type='radio'
+        name='cliente[$num]' value='1'>
+        <label for='";
+        print_r($clientes[$c]->getEmail());         echo"1'></label>
+      </span></div></form>
+ </td>
                 </tr>";
     }
-/*        foreach ($clientes as $chave => $cliente ) {
-        $num = $i++;
-        echo "<tr>
-                <td>$num</td>
-                <td><form method='post' action='detalheclientes'>
-                  <input type='hidden' id='id' name='id' value='$cliente->getCpf()' >
-                  <button type='submit' class='btn btn-link'> $cliente->getNome()</button> </form></td>
-                <td>$cliente->getCpf()</td>
-                <td>$cliente->getEmail()</td>
-                <td>";
-                    if($cliente->getTipo() == '1'){ echo 'Pessoa Física';} else { echo 'Pessoa Jurídica';}
-                    echo "</td>
-                        <td><div class='progress'>
-  <div class='progress-bar progress-bar-striped active' role='progressbar' aria-valuenow='45' aria-valuemin='0' aria-valuemax='100' style='width: 45%'>
-    <span class='sr-only'>45% Complete</span>
-  </div>
-</div> </td>
-                </tr>";
-    }*/
     ?>
          </tbody>
       </table>
@@ -121,3 +105,4 @@
   </div>
 </div>
 
+<input type="text" class="form-control" name="endereco" value="">
