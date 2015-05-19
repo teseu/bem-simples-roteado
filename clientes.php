@@ -70,30 +70,35 @@
                         <td><div>
                         <span class='starRating'>
         <input id='";
-        print_r($clientes[$c]->getEmail());         echo"5' type='radio'
-        name='cliente[$num]' value='5'>
+        print_r($clientes[$c]->getId());         echo"5' type='radio'
+        name='c";
+        print_r($clientes[$c]->getId());         echo"' value='5'>
         <label for='";
-        print_r($clientes[$c]->getEmail());         echo"5'></label>
+        print_r($clientes[$c]->getId());         echo"5'></label>
         <input id='";
-        print_r($clientes[$c]->getEmail());         echo"4' type='radio'
-        name='cliente[$num]' value='4'>
+        print_r($clientes[$c]->getId());         echo"4' type='radio'
+        name='c";
+        print_r($clientes[$c]->getId());         echo"' value='4'>
         <label for='";
-        print_r($clientes[$c]->getEmail());         echo"4'></label>
+        print_r($clientes[$c]->getId());         echo"4'></label>
         <input id='";
-        print_r($clientes[$c]->getEmail());         echo"3' type='radio'
-        name='cliente[$num]' value='3'>
+        print_r($clientes[$c]->getId());         echo"3' type='radio'
+        name='c";
+        print_r($clientes[$c]->getId());         echo"' value='3'>
         <label for='";
-        print_r($clientes[$c]->getEmail());         echo"3'></label>
+        print_r($clientes[$c]->getId());         echo"3'></label>
         <input id='";
-        print_r($clientes[$c]->getEmail());         echo"2' type='radio'
-        name='cliente[$num]' value='2'>
+        print_r($clientes[$c]->getId());         echo"2' type='radio'
+        name='c";
+        print_r($clientes[$c]->getId());         echo"' value='2'>
         <label for='";
-        print_r($clientes[$c]->getEmail());         echo"2'></label>
+        print_r($clientes[$c]->getId());         echo"2'></label>
         <input id='";
-        print_r($clientes[$c]->getEmail());         echo"1' type='radio'
-        name='cliente[$num]' value='1'>
+        print_r($clientes[$c]->getId());         echo"1' type='radio'
+        name='c";
+        print_r($clientes[$c]->getId());         echo"' value='1' checked>
         <label for='";
-        print_r($clientes[$c]->getEmail());         echo"1'></label>
+        print_r($clientes[$c]->getId());         echo"1'></label>
       </span></div></form>
  </td>
                 </tr>";
