@@ -2,6 +2,268 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16d04513-d50d-4dec-8724-57cffab72133" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/.directory" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/CHANGES.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/adapters/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/build-config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/ckeditor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/contents.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/lang/pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/about/dialogs/about.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/about/dialogs/logo_ckeditor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/clipboard/dialogs/paste.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/dialog/dialogDefinition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/icons_hidpi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/image/dialogs/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/image/images/noimage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/link/dialogs/anchor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/link/dialogs/link.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/link/images/anchor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/link/images/hidpi/anchor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/magicline/images/hidpi/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/magicline/images/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/pastefromword/filter/default.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/scayt/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/scayt/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/scayt/dialogs/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/scayt/dialogs/toolbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/eo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/km.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/ku.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/no.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/si.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/sq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/tt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/ug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/lang/zh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/specialchar/dialogs/specialchar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/table/dialogs/table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/tabletools/dialogs/tableCell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/wsc/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/wsc/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/wsc/dialogs/ciframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/wsc/dialogs/wsc.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/wsc/dialogs/wsc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/plugins/wsc/dialogs/wsc_ie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/ajax.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/api.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/appendto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/assets/inlineall/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/assets/outputxhtml/outputxhtml.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/assets/posteddata.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/assets/sample.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/assets/uilanguages/languages.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/datafiltering.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/divreplace.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/inlineall.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/inlinebycode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/inlinetextarea.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/jquery.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/plugins/dialog/assets/my_dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/plugins/dialog/dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/plugins/enterkey/enterkey.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/outputforflash.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/outputforflash.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/swfobject.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/plugins/htmlwriter/outputforflash.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/plugins/htmlwriter/outputhtml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/plugins/magicline/magicline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/plugins/toolbar/toolbar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/plugins/wysiwygarea/fullpage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/readonly.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/replacebyclass.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/replacebycode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/sample.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/sample.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/sample_posteddata.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/tabindex.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/uicolor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/uilanguages.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/samples/xhtmlstyle.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/.temp/css/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/.temp/css/dialog_ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/.temp/css/dialog_ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/.temp/css/dialog_ie8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/.temp/css/dialog_iequirks.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/.temp/css/dialog_opera.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/.temp/css/editor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/.temp/css/editor_gecko.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/.temp/css/editor_ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/.temp/css/editor_ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/.temp/css/editor_ie8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/.temp/css/editor_iequirks.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/dialog_ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/dialog_ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/dialog_ie8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/dialog_iequirks.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/dialog_opera.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/editor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/editor_gecko.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/editor_ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/editor_ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/editor_ie8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/editor_iequirks.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/icons_hidpi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/images/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/images/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/images/hidpi/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/images/hidpi/lock-open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/images/hidpi/lock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/images/hidpi/refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/images/lock-open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/images/lock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/images/refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/sample/bootstrapck-sample.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/sample/css/bootstrapck-sample.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/sample/js/analytics.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/sample/js/jquery-1.11.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/scss/browser-specific/gecko/editor_gecko.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/scss/browser-specific/ie/dialog_ie.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/scss/browser-specific/ie/editor_ie.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/scss/browser-specific/ie7/dialog_ie7.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/scss/browser-specific/ie7/editor_ie7.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/scss/browser-specific/ie8/dialog_ie8.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/scss/browser-specific/ie8/editor_ie8.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/scss/browser-specific/iequirks/dialog_iequirks.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/scss/browser-specific/iequirks/editor_iequirks.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/scss/browser-specific/opera/dialog_opera.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/scss/components/_colorpanel.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/scss/components/_elementspath.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/scss/components/_mainui.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/scss/components/_menu.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/scss/components/_panel.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/scss/components/_presets.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/scss/components/_reset.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/scss/components/_richcombo.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/scss/components/_toolbar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/scss/components/editor.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/scss/config/_colors.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/scss/config/_config.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/scss/config/_defaults.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/skins/bootstrapck/scss/dialog/dialog.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ckeditor/styles.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/404.php" afterPath="$PROJECT_DIR$/src/Tulio/View/404.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Cliente.php" afterPath="$PROJECT_DIR$/src/Tulio/Cliente/Cliente.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ClienteInterface.php" afterPath="$PROJECT_DIR$/src/Tulio/Cliente/Utils/Clienteinterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ClientePF.php" afterPath="$PROJECT_DIR$/src/Tulio/Cliente/Tipos/Clientepf.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ClientePJ.php" afterPath="$PROJECT_DIR$/src/Tulio/Cliente/Tipos/ClientePJ.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/src/Tulio/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrayClientesPF.php" afterPath="$PROJECT_DIR$/src/Tulio/Cliente/Tipos/arrayclientespf.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrayClientesPJ.php" afterPath="$PROJECT_DIR$/src/Tulio/Cliente/Tipos/arrayClientesPJ.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cabecalho.php" afterPath="$PROJECT_DIR$/src/Tulio/View/cabecalho.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/clientes.php" afterPath="$PROJECT_DIR$/src/Tulio/Cliente/clientes.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/detalheclientes.php" afterPath="$PROJECT_DIR$/src/Tulio/Cliente/detalheclientes.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/inicio.php" afterPath="$PROJECT_DIR$/src/Tulio/View/inicio.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/rodape.php" afterPath="$PROJECT_DIR$/src/Tulio/View/rodape.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/rotas.php" afterPath="$PROJECT_DIR$/src/Tulio/Cliente/Utils/rotas.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/estilo.css" afterPath="$PROJECT_DIR$/css/estilo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="php2.iws" />
@@ -26,91 +288,110 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Cliente.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cliente.php">
+        <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/Cliente.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="162" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="1881">
+            <state line="4" column="6" selection-start="39" selection-end="39" vertical-scroll-proportion="-2.7142856" vertical-offset="0" max-vertical-offset="1919">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientePF.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClientePF.php">
+      <file leaf-file-name="Clientepf.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/Tipos/Clientepf.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="5" selection-start="958" selection-end="1047" vertical-scroll-proportion="0.0" vertical-offset="1007" max-vertical-offset="1178">
+            <state line="15" column="20" selection-start="318" selection-end="318" vertical-scroll-proportion="-10.178572" vertical-offset="0" max-vertical-offset="1292">
+              <folding>
+                <element signature="e#39#81#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Clienteinterface.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/Utils/Clienteinterface.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="10" selection-start="49" selection-end="49" vertical-scroll-proportion="-2.7142856" vertical-offset="0" max-vertical-offset="323">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClienteInterface.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClienteInterface.php">
+      <file leaf-file-name="arrayclientespf.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/Tipos/arrayclientespf.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="40" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="285">
+            <state line="10" column="5" selection-start="252" selection-end="346" vertical-scroll-proportion="-6.785714" vertical-offset="0" max-vertical-offset="741">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientePJ.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClientePJ.php">
+      <file leaf-file-name="estilo.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/estilo.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="5" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.0" vertical-offset="560" max-vertical-offset="1197">
+            <state line="19" column="0" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="798">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="arrayClientesPF.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arrayClientesPF.php">
+      <file leaf-file-name="rotas.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/Utils/rotas.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="39" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="513">
+            <state line="15" column="56" selection-start="409" selection-end="409" vertical-scroll-proportion="-10.178572" vertical-offset="0" max-vertical-offset="608">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detalheclientes.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/detalheclientes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="35" selection-start="367" selection-end="367" vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="817">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cabecalho.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tulio/View/cabecalho.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="6" selection-start="856" selection-end="856" vertical-scroll-proportion="-13.571428" vertical-offset="0" max-vertical-offset="494">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="arrayClientesPJ.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arrayClientesPJ.php">
+        <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/Tipos/arrayClientesPJ.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="49" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="380">
+            <state line="2" column="30" selection-start="37" selection-end="37" vertical-scroll-proportion="-1.3571428" vertical-offset="0" max-vertical-offset="418">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="clientes.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/clientes.php">
+        <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/clientes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="73" selection-start="3638" selection-end="3638" vertical-scroll-proportion="3.5141778" vertical-offset="3" max-vertical-offset="2242">
+            <state line="8" column="16" selection-start="271" selection-end="271" vertical-scroll-proportion="0.2873346" vertical-offset="0" max-vertical-offset="2641">
               <folding>
-                <marker date="1431999903363" expanded="true" signature="614:1441" placeholder="..." />
-                <marker date="1431999903363" expanded="true" signature="651:1441" placeholder="..." />
-                <marker date="1431999903363" expanded="true" signature="700:1441" placeholder="..." />
-                <marker date="1431999903363" expanded="true" signature="745:785" placeholder="..." />
-                <marker date="1431999903363" expanded="true" signature="825:1441" placeholder="..." />
-                <marker date="1431999903363" expanded="true" signature="853:1412" placeholder="..." />
-                <marker date="1431999903363" expanded="true" signature="881:1382" placeholder="..." />
-                <marker date="1431999903363" expanded="true" signature="947:1177" placeholder="..." />
-                <marker date="1431999903363" expanded="true" signature="987:1171" placeholder="..." />
-                <marker date="1431999903363" expanded="true" signature="1523:1684" placeholder="..." />
-                <marker date="1431999903363" expanded="true" signature="1574:1684" placeholder="..." />
-                <marker date="1431999903363" expanded="true" signature="1619:1684" placeholder="..." />
-                <marker date="1431999903363" expanded="true" signature="1996:2138" placeholder="..." />
-                <marker date="1431999903363" expanded="true" signature="2159:2213" placeholder="..." />
-                <marker date="1431999903363" expanded="true" signature="2334:2376" placeholder="..." />
-                <marker date="1431999903363" expanded="true" signature="2334:2409" placeholder="..." />
-                <marker date="1431999903363" expanded="true" signature="2389:2409" placeholder="..." />
+                <element signature="e#433#460#0" expanded="true" />
+                <marker date="1432197924908" expanded="true" signature="1321:2148" placeholder="..." />
+                <marker date="1432197924908" expanded="true" signature="1358:2148" placeholder="..." />
+                <marker date="1432197924908" expanded="true" signature="1407:2148" placeholder="..." />
+                <marker date="1432197924908" expanded="true" signature="1452:1492" placeholder="..." />
+                <marker date="1432197924908" expanded="true" signature="1532:2148" placeholder="..." />
+                <marker date="1432197924908" expanded="true" signature="1560:2119" placeholder="..." />
+                <marker date="1432197924908" expanded="true" signature="1588:2089" placeholder="..." />
+                <marker date="1432197924908" expanded="true" signature="1654:1884" placeholder="..." />
+                <marker date="1432197924908" expanded="true" signature="1694:1878" placeholder="..." />
+                <marker date="1432197924908" expanded="true" signature="2230:2391" placeholder="..." />
+                <marker date="1432197924908" expanded="true" signature="2281:2391" placeholder="..." />
+                <marker date="1432197924908" expanded="true" signature="2326:2391" placeholder="..." />
+                <marker date="1432197924908" expanded="true" signature="3041:3116" placeholder="..." />
+                <marker date="1432197924908" expanded="true" signature="3046:3116" placeholder="..." />
+                <marker date="1432197924908" expanded="true" signature="3096:3116" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detalheclientes.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/detalheclientes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="23" selection-start="320" selection-end="320" vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="817">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -129,21 +410,21 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="tipo-cliente" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/cria.php" />
-        <option value="$PROJECT_DIR$/sqls" />
-        <option value="$PROJECT_DIR$/admin/admin.php" />
-        <option value="$PROJECT_DIR$/conexao.php" />
         <option value="$PROJECT_DIR$/empresa.php" />
         <option value="$PROJECT_DIR$/resultadopaginas.php" />
         <option value="$PROJECT_DIR$/resultado.php" />
         <option value="$PROJECT_DIR$/detalhe.php" />
         <option value="$PROJECT_DIR$/contato.php" />
         <option value="$PROJECT_DIR$/servicos.php" />
-        <option value="$PROJECT_DIR$/css/estilo.css" />
         <option value="$PROJECT_DIR$/reslogon.php" />
         <option value="$PROJECT_DIR$/modal-login.php" />
         <option value="$PROJECT_DIR$/entrar.php" />
@@ -172,9 +453,23 @@
         <option value="$PROJECT_DIR$/ClienteInterface.php" />
         <option value="$PROJECT_DIR$/ClientePF.php" />
         <option value="$PROJECT_DIR$/ClientePJ.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/clientes.php" />
         <option value="$PROJECT_DIR$/detalheclientes.php" />
+        <option value="$PROJECT_DIR$/clientes.php" />
+        <option value="$PROJECT_DIR$/src/Tulio/index.php" />
+        <option value="$PROJECT_DIR$/src/Tulio/View/cabecalho.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/css/estilo.css" />
+        <option value="$PROJECT_DIR$/src/Tulio/Cliente/Utils/rotas.php" />
+        <option value="$PROJECT_DIR$/src/Tulio/Cliente/Cliente.php" />
+        <option value="$PROJECT_DIR$/src/Tulio/Cliente/Tipos/arrayClientesPJ.php" />
+        <option value="$PROJECT_DIR$/src/Tulio/Cliente/Tipos/ClientePJ.php" />
+        <option value="$PROJECT_DIR$/src/Tulio/Cliente/Utils/ClienteInterface.php" />
+        <option value="$PROJECT_DIR$/src/Tulio/Cliente/Tipos/ClientePF.php" />
+        <option value="$PROJECT_DIR$/src/Tulio/Cliente/Tipos/arrayClientesPF.php" />
+        <option value="$PROJECT_DIR$/src/Tulio/Cliente/detalheclientes.php" />
+        <option value="$PROJECT_DIR$/src/Tulio/Cliente/Tipos/Clientepf.php" />
+        <option value="$PROJECT_DIR$/src/Tulio/Cliente/clientes.php" />
+        <option value="$PROJECT_DIR$/src/Tulio/Cliente/Tipos/arrayclientespf.php" />
       </list>
     </option>
   </component>
@@ -251,6 +546,120 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bem-simples-roteado" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tulio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bem-simples-roteado" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tulio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bem-simples-roteado" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tulio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cliente" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bem-simples-roteado" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tulio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cliente" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bem-simples-roteado" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tulio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cliente" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tipos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -273,7 +682,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/admin" />
+      <recent name="$PROJECT_DIR$/src/Tulio" />
+      <recent name="$PROJECT_DIR$/src/Tulio/Cliente/View" />
+      <recent name="$PROJECT_DIR$/src/Tulio/Cliente/Utils" />
+      <recent name="$PROJECT_DIR$/src/Tulio/Cliente" />
     </key>
   </component>
   <component name="RunManager">
@@ -329,22 +741,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="-3" width="1370" height="737" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22205438" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1450151" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -352,6 +764,28 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22205438" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -375,14 +809,14 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/arrayClientesPF.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/Tipos/arrayclientespf.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="12" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="405">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClientePJ.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/Tipos/ClientePJ.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="36" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1395">
           <folding />
@@ -394,70 +828,71 @@
         <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rotas.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/Utils/rotas.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="13" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="480" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clientes.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/clientes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="38" selection-start="1267" selection-end="1267" vertical-scroll-proportion="0.0" vertical-offset="509" max-vertical-offset="1050">
           <folding>
-            <marker date="1431999903363" expanded="true" signature="614:1441" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="651:1441" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="700:1441" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="745:785" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="825:1441" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="853:1412" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="881:1382" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="947:1177" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="987:1171" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="1523:1684" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="1574:1684" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="1619:1684" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="1996:2138" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="2159:2213" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="2334:2376" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="2334:2409" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="2389:2409" placeholder="..." />
+            <element signature="e#433#460#0" expanded="true" />
+            <marker date="1432197924908" expanded="true" signature="1321:2148" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1358:2148" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1407:2148" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1452:1492" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1532:2148" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1560:2119" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1588:2089" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1654:1884" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1694:1878" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="2230:2391" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="2281:2391" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="2326:2391" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="3041:3116" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="3046:3116" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="3096:3116" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClienteInterface.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/Utils/Clienteinterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="195" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detalheclientes.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/detalheclientes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="43" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="540">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cliente.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/Cliente.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="21" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClientePF.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/Tipos/Clientepf.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="27" selection-start="951" selection-end="951" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="1305">
-          <folding />
+          <folding>
+            <element signature="e#39#81#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arrayClientesPF.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/Tipos/arrayclientespf.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="12" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="405">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClientePJ.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/Tipos/ClientePJ.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="36" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1395">
           <folding />
@@ -469,58 +904,59 @@
         <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rotas.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/Utils/rotas.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="13" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="480" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clientes.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/clientes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="85" selection-start="1642" selection-end="1642" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1050">
           <folding>
-            <marker date="1431999903363" expanded="true" signature="614:1441" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="651:1441" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="700:1441" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="745:785" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="825:1441" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="853:1412" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="881:1382" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="947:1177" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="987:1171" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="1523:1684" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="1574:1684" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="1619:1684" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="1996:2138" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="2159:2213" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="2334:2376" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="2334:2409" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="2389:2409" placeholder="..." />
+            <element signature="e#433#460#0" expanded="true" />
+            <marker date="1432197924908" expanded="true" signature="1321:2148" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1358:2148" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1407:2148" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1452:1492" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1532:2148" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1560:2119" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1588:2089" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1654:1884" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1694:1878" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="2230:2391" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="2281:2391" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="2326:2391" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="3041:3116" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="3046:3116" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="3096:3116" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detalheclientes.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/detalheclientes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="43" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="540">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cliente.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/Cliente.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="21" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClientePF.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/Tipos/Clientepf.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="26" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1545">
-          <folding />
+          <folding>
+            <element signature="e#39#81#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClientePJ.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/Tipos/ClientePJ.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="36" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1395">
           <folding />
@@ -532,56 +968,55 @@
         <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rotas.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/Utils/rotas.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="13" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="480" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clientes.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/clientes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="21" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="990">
           <folding>
-            <marker date="1431999903363" expanded="true" signature="614:1441" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="651:1441" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="700:1441" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="745:785" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="825:1441" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="853:1412" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="881:1382" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="947:1177" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="987:1171" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="1523:1684" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="1574:1684" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="1619:1684" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="1996:2138" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="2159:2213" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="2334:2376" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="2334:2409" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="2389:2409" placeholder="..." />
+            <element signature="e#433#460#0" expanded="true" />
+            <marker date="1432197924908" expanded="true" signature="1321:2148" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1358:2148" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1407:2148" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1452:1492" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1532:2148" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1560:2119" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1588:2089" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1654:1884" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1694:1878" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="2230:2391" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="2281:2391" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="2326:2391" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="3041:3116" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="3046:3116" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="3096:3116" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detalheclientes.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/detalheclientes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="43" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="540">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detalheclientes.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/detalheclientes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="33" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="525">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cabecalho.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/View/cabecalho.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="42" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="420" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inicio.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/View/inicio.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765" />
       </provider>
@@ -591,17 +1026,17 @@
         <state line="43" column="0" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="960" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rotas.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/Utils/rotas.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="7" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="480" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cabecalho.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/View/cabecalho.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="8" selection-start="951" selection-end="951" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="405" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inicio.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/View/inicio.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765" />
       </provider>
@@ -611,12 +1046,12 @@
         <state line="41" column="0" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="960" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rotas.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/Utils/rotas.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="6" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="720" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inicio.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/View/inicio.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765" />
       </provider>
@@ -631,12 +1066,7 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/estilo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="20" selection-start="548" selection-end="548" vertical-scroll-proportion="0.83916086" vertical-offset="0" max-vertical-offset="585" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/README.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
@@ -644,22 +1074,17 @@
         <state line="2" column="22" selection-start="65" selection-end="65" vertical-scroll-proportion="0.05514706" vertical-offset="0" max-vertical-offset="544" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cabecalho.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="548" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rodape.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/View/rodape.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="535" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/404.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/View/404.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="535" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inicio.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/View/inicio.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="32" selection-start="106" selection-end="106" vertical-scroll-proportion="0.111317255" vertical-offset="0" max-vertical-offset="539" />
       </provider>
@@ -669,86 +1094,105 @@
         <state line="5" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.13321492" vertical-offset="0" max-vertical-offset="563" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rotas.php">
+    <entry file="file://$PROJECT_DIR$/css/estilo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="108" selection-end="108" vertical-scroll-proportion="0.13914657" vertical-offset="0" max-vertical-offset="539" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arrayClientesPF.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="39" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="513">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cliente.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="162" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="1881">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientePF.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="5" selection-start="958" selection-end="1047" vertical-scroll-proportion="0.0" vertical-offset="1007" max-vertical-offset="1178">
+        <state line="19" column="0" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="798">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="30" selection-start="454" selection-end="454" vertical-scroll-proportion="0.3505535" vertical-offset="57" max-vertical-offset="950" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arrayClientesPJ.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="49" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="380">
+        <state line="29" column="34" selection-start="867" selection-end="891" vertical-scroll-proportion="-5.214286" vertical-offset="405" max-vertical-offset="1083">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClienteInterface.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/View/cabecalho.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="40" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="285">
+        <state line="20" column="6" selection-start="856" selection-end="856" vertical-scroll-proportion="-13.571428" vertical-offset="0" max-vertical-offset="494">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClientePJ.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/Tipos/ClientePJ.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="5" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.0" vertical-offset="560" max-vertical-offset="1197">
+        <state line="4" column="0" selection-start="39" selection-end="81" vertical-scroll-proportion="-2.7142856" vertical-offset="0" max-vertical-offset="1292">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detalheclientes.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/Tipos/arrayClientesPJ.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="23" selection-start="320" selection-end="320" vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="817">
+        <state line="2" column="30" selection-start="37" selection-end="37" vertical-scroll-proportion="-1.3571428" vertical-offset="0" max-vertical-offset="418">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clientes.php">
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/detalheclientes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="73" selection-start="3638" selection-end="3638" vertical-scroll-proportion="3.5141778" vertical-offset="3" max-vertical-offset="2242">
+        <state line="11" column="35" selection-start="367" selection-end="367" vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="817">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/Utils/rotas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="56" selection-start="409" selection-end="409" vertical-scroll-proportion="-10.178572" vertical-offset="0" max-vertical-offset="608">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/Utils/Clienteinterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="10" selection-start="49" selection-end="49" vertical-scroll-proportion="-2.7142856" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/Cliente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="39" selection-end="39" vertical-scroll-proportion="-2.7142856" vertical-offset="0" max-vertical-offset="1919">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/Tipos/Clientepf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="20" selection-start="318" selection-end="318" vertical-scroll-proportion="-10.178572" vertical-offset="0" max-vertical-offset="1292">
           <folding>
-            <marker date="1431999903363" expanded="true" signature="614:1441" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="651:1441" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="700:1441" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="745:785" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="825:1441" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="853:1412" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="881:1382" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="947:1177" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="987:1171" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="1523:1684" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="1574:1684" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="1619:1684" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="1996:2138" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="2159:2213" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="2334:2376" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="2334:2409" placeholder="..." />
-            <marker date="1431999903363" expanded="true" signature="2389:2409" placeholder="..." />
+            <element signature="e#39#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/Tipos/arrayclientespf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="5" selection-start="252" selection-end="346" vertical-scroll-proportion="-6.785714" vertical-offset="0" max-vertical-offset="741">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tulio/Cliente/clientes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="16" selection-start="271" selection-end="271" vertical-scroll-proportion="0.2873346" vertical-offset="0" max-vertical-offset="2641">
+          <folding>
+            <element signature="e#433#460#0" expanded="true" />
+            <marker date="1432197924908" expanded="true" signature="1321:2148" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1358:2148" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1407:2148" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1452:1492" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1532:2148" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1560:2119" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1588:2089" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1654:1884" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="1694:1878" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="2230:2391" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="2281:2391" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="2326:2391" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="3041:3116" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="3046:3116" placeholder="..." />
+            <marker date="1432197924908" expanded="true" signature="3096:3116" placeholder="..." />
           </folding>
         </state>
       </provider>

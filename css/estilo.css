@@ -17,6 +17,9 @@ body {
 .legenda {
   font-size: 8px;
 }
+.theme-showcase{
+    padding-top: 60px;
+}
 .brand {
   margin-left: 20px;
 }

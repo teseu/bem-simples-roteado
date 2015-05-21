@@ -24,12 +24,19 @@ error_reporting(E_ALL | E_STRICT);
 
   <body>
 
-  	<?php require_once("cabecalho.php"); ?>
+    <?php
+       // define('CLASS_DIR', 'src/');
+       // set_include_path(get_include_path(),PATH_SEPARATOR.CLASS_DIR);
+       // spl_autoload_register();
+    ?>
+
+
+  	<?php require_once("src/Tulio/View/cabecalho.php")  ?>
 
   	<div class="container theme-showcase" role="main">
-         <?php require_once("rotas.php"); ?>
+         <?php require_once("src/Tulio/Cliente/Utils/rotas.php"); ?>
 	</div>
-  	<?php require_once("rodape.php"); ?>	
+  	<?php require_once("src/Tulio/View/rodape.php"); ?>
 
    
   <!-- Arquivos Javascripts
