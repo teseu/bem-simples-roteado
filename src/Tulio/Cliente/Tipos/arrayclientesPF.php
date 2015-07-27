@@ -1,14 +1,13 @@
 <?php
 
 namespace Tulio\Cliente\Tipos;
-require_once "Clientepf.php";
 
     //define('CLASS_DIR', 'src/');
-	/*
+
     spl_autoload_register(function($class) {
         $className = CLASS_DIR . str_replace("\\", DIRECTORY_SEPARATOR, $class) . ".php";
         include($className);
-    });*/
+    });
 //    set_include_path(get_include_path().PATH_SEPARATOR.CLASS_DIR);
 //    spl_autoload_register();
     //use Tulio\Cliente\Tipos\ClientePF;
@@ -30,6 +29,6 @@ $clientespf = array();
 
 foreach ($pf as $cliente ) {
         //$num = $i++;
-    $cliente = new Clientepf($cliente[0], $cliente[1], $cliente[2], $cliente[3], $cliente[4], $cliente[5]);
+    $cliente = new ClientePF($cliente[0], $cliente[1], $cliente[2], $cliente[3], $cliente[4], $cliente[5]);
     array_push($clientespf, $cliente);
 }

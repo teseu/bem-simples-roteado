@@ -1,9 +1,11 @@
     <?php
+	 require_once(__DIR__ . '/Utils/Clienteinterface.php');    
     require_once(__DIR__ . '/Cliente.php');
-    require_once(__DIR__ . '/Clientepf.php');
-    require_once(__DIR__ . '/ClientePJ.php');
-    require_once(__DIR__ . '/arrayclientespf.php');
-    require_once(__DIR__ . '/arrayClientesPJ.php');
+    require_once(__DIR__ . '/Tipos/Clientepf.php');
+    require_once(__DIR__ . '/Tipos/ClientePJ.php');
+    require_once(__DIR__ . '/Tipos/arrayclientespf.php');
+    require_once(__DIR__ . '/Tipos/arrayClientesPJ.php');
+    
 
     $clientes = array_merge($clientespf, $clientespj);
 

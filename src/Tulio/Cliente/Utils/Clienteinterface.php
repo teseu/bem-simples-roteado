@@ -2,7 +2,7 @@
 
 namespace Tulio\Cliente\Utils;
 
-interface ClienteInterface {
+interface Clienteinterface {
 
     public function setRank($rank);
     public function getRank();

@@ -2,6 +2,8 @@
 
 namespace Tulio\Cliente\Tipos;
 
+require_once "ClientePJ.php";
+
 $pj = array( array("Casas Espírito Santo", '100934567000122' , 'CNA 05 Bloco A Loja 34', '3456-9876', 'espiritosanto@email.com', '2'),
     array("Ponto Quente", '100937867000123' , 'CLN 412 Bloco B Loja 34', '33479023', 'pontoquente@email.com', '2'),
     array("Lojas Colombinanas", '100939287000166' , 'Quadra 3 Conjunto G Casa 35', '4509-2134', 'colombianas@email.com', '2')

@@ -4,7 +4,7 @@ namespace Tulio\Cliente\Tipos;
 
 use \Tulio\Cliente\Utils\ClienteInterface;
 
-//require_once(__DIR__ . '/Clienteinterface.php');
+
 class ClientePJ extends \Tulio\Cliente\Cliente implements ClienteInterface
 {
 

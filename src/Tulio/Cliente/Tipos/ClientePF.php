@@ -2,12 +2,11 @@
 
 namespace Tulio\Cliente\Tipos;
 
-
-use \Tulio\Cliente\Cliente;
 use \Tulio\Cliente\Utils\Clienteinterface;
+use \Tulio\Cliente\Cliente;
 
-
-class Clientepf extends Cliente implements Clienteinterface
+//require_once(__DIR__ . '/Clienteinterface.php');
+class ClientePF extends Cliente implements Clienteinterface
 {
 
     private $cpf;

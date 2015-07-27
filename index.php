@@ -44,7 +44,7 @@ error_reporting(E_ALL | E_STRICT);
 
     <script src="js/jquery-1.10.2.min.js"></script>
 
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
 
    
   </body>

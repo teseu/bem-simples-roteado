@@ -2,31 +2,34 @@
 
 namespace Tulio\Cliente;
 
-    define("CLASS_DIR", __DIR__ . DIRECTORY_SEPARATOR . "src" . DIRECTORY_SEPARATOR);
 
+
+/*
+    define("CLASS_DIR", __DIR__ . DIRECTORY_SEPARATOR . "src" . DIRECTORY_SEPARATOR);
     spl_autoload_register(function($class) {
         $className = CLASS_DIR . str_replace("\\", DIRECTORY_SEPARATOR, $class) . ".php";
         include($className);
-    });
+    });*/
 
 //    define('CLASS_DIR', 'src/');
 //    set_include_path(get_include_path().PATH_SEPARATOR.CLASS_DIR);
 //    spl_autoload_register();
 
     use \Tulio\Cliente\Cliente;
-    use \Tulio\Cliente\Utils\ClienteInterface;
-    use \Tulio\Cliente\Tipos\ClientePF;
+   use \Tulio\Cliente\Utils\Clienteinterface;
+    use \Tulio\Cliente\Tipos\Clientepf;
     use \Tulio\Cliente\Tipos\ClientePJ;
-    //use \Tulio\Cliente\Tipos\arrayClientesPF;
-    //use \Tulio\Cliente\Tipos\arrayClientesPJ;
 
-//    require_once(__DIR__ . '/Cliente.php');
-//    require_once(__DIR__ . '/Clientepf.php');
-//    require_once(__DIR__ . '/ClientePJ.php');
-//    require_once(__DIR__ . '/Clienteinterface.php');
-    require_once(__DIR__ . '/Tipos/arrayclientespf.php');
-    require_once(__DIR__ . '/Tipos/arrayClientesPJ.php');
 
+
+	
+    require_once('Cliente.php');
+    require_once(__DIR__ . '/Utils/Clienteinterface.php');
+    require_once('Tipos/arrayclientespf.php');
+
+    require_once('Tipos/arrayClientesPJ.php');
+		
+	
     $clientes = array_merge($clientespf, $clientespj);
 
     if(isset($_POST['sort'])){
